@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiMemory.Web", "PiMemory.Web\PiMemory.Web.csproj", "{EE640566-7E52-43FD-98E6-C9B902562466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMemory", "PiMemory\PiMemory.csproj", "{621EDCD8-BE43-412B-AEEC-F4A9DEE8E222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiMemory.Tests", "PiMemory.Tests\PiMemory.Tests.csproj", "{600C6A85-D88B-4361-9EAA-1CDCC6B73CAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F1565B6E-DD62-4442-8401-6E867B595CC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE640566-7E52-43FD-98E6-C9B902562466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE640566-7E52-43FD-98E6-C9B902562466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE640566-7E52-43FD-98E6-C9B902562466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE640566-7E52-43FD-98E6-C9B902562466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621EDCD8-BE43-412B-AEEC-F4A9DEE8E222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621EDCD8-BE43-412B-AEEC-F4A9DEE8E222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621EDCD8-BE43-412B-AEEC-F4A9DEE8E222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621EDCD8-BE43-412B-AEEC-F4A9DEE8E222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600C6A85-D88B-4361-9EAA-1CDCC6B73CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600C6A85-D88B-4361-9EAA-1CDCC6B73CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600C6A85-D88B-4361-9EAA-1CDCC6B73CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600C6A85-D88B-4361-9EAA-1CDCC6B73CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{600C6A85-D88B-4361-9EAA-1CDCC6B73CAA} = {F1565B6E-DD62-4442-8401-6E867B595CC3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5985FC1B-A737-4455-A6EE-B830872C0B0C}
+	EndGlobalSection
+EndGlobal
