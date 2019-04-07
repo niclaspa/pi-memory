@@ -1,1 +1,1 @@
-<input OnlyNumber="true" maxlength="1" [(ngModel)]="actualValue" [class.correct]="isCorrect()" [class.wrong]="isWrong()">
+<input OnlyNumber="true" maxlength="1" [(ngModel)]="actualValue" [class.correct]="isCorrect()" [class.wrong]="isWrong()" (keyup)="onKey($event)" id="dbox{{index}}">
