@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-decimal-box',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DecimalBoxComponent implements OnInit {
 
-  expectedValue: number;
+  @Input() expectedValue: number;
   actualValue: number;
 
   constructor() { }
