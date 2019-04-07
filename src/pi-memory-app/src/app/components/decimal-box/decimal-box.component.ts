@@ -8,10 +8,18 @@ import { Component, OnInit, Input } from '@angular/core';
 export class DecimalBoxComponent implements OnInit {
 
   @Input() expectedValue: number;
-  actualValue: number;
+  actualValue: string;
 
   constructor() { }
 
   ngOnInit() {
-  }  
+  }
+
+  isCorrect(): boolean {
+    return String(this.expectedValue) === this.actualValue;
+  }
+
+  isWrong(): boolean {
+    return !this.isCorrect() && this.actualValue !== undefined; 
+  }
 }
